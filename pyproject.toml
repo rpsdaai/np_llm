@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "assignment"
+version = "0.1.0"
+description = "Chatbot"
+authors = ["rpsdaai <ang18061937@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-openai = "^0.3.2"
+langchain-community = "^0.3.15"
+streamlit = "^1.41.1"
+numpy = "^2.2.2"
+sentence-transformers = "^3.4.1"
+langchain-huggingface = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
